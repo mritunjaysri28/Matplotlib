@@ -156,8 +156,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_12_0.png)
-    
+#![Matplotlib_12_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/1869acd3-8759-42de-9081-99b072288c3e)
+
 
 
 
@@ -170,8 +170,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_13_0.png)
-    
+![Matplotlib_13_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/184e92b1-9f44-4a09-b6c1-344767fa61c6)
+
 
 
 
@@ -191,8 +191,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_14_0.png)
-    
+![Matplotlib_14_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/4eb63848-4376-4bc5-825d-69c70cadbd42)
+
 
 
 
@@ -210,7 +210,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_15_0.png)
+![Matplotlib_15_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/dd6d23f3-4d18-4f3f-89d4-0ddc275acebc)
+
     
 
 
@@ -230,7 +231,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_16_0.png)
+![Matplotlib_16_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/95c39080-c925-40ae-a5ec-d39273da4cf3)
+
     
 
 
@@ -253,7 +255,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_17_0.png)
+![Matplotlib_17_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/fc551791-ee24-4043-88aa-369f1e0d1c3e)
+
     
 
 
@@ -277,7 +280,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_18_0.png)
+![Matplotlib_18_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/b8a9d7d1-30ef-4595-973b-876d09d0ff52)
+
     
 
 
@@ -316,7 +320,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_21_0.png)
+![Matplotlib_21_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/3ac0bf29-c958-4161-a5a7-0a723d9b3bc1)
+
     
 
 
@@ -352,7 +357,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_23_0.png)
+![Matplotlib_23_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/8f99df18-f6ea-4ddc-9ca0-d492ef223b8c)
+
     
 
 
@@ -379,8 +385,8 @@ ax.plot(x, y, 'g<', x,y, 'r--')
 
 
     
-![png](Matplotlib_files/Matplotlib_25_1.png)
-    
+![Matplotlib_25_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/06a2a78f-acb7-4a3e-b3c2-c16d360af70f)
+
 
 
 ### Scatter Graph
@@ -427,7 +433,8 @@ plt.legend()
 
 
     
-![png](Matplotlib_files/Matplotlib_28_1.png)
+![Matplotlib_28_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/cbc8f389-6d9d-447f-af22-03cfb8ef2a52)
+
     
 
 
@@ -482,8 +489,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_31_0.png)
-    
+![Matplotlib_31_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/f596de7d-379f-4860-adac-64e2af254ef4)
+
 
 
 
@@ -515,7 +522,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_32_0.png)
+![Matplotlib_32_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/4a5c1137-87a8-4e1f-b157-a240a1749fb3)
+
     
 
 
@@ -553,7 +561,8 @@ plt.errorbar(a, b, xerr=c, yerr=d, fmt="^", color="r")
 
 
     
-![png](Matplotlib_files/Matplotlib_34_1.png)
+![Matplotlib_34_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/ada6e5ed-69a2-44df-abd4-036a40a884c5)
+
     
 
 
@@ -609,7 +618,8 @@ plt.pie(x
 
 
     
-![png](Matplotlib_files/Matplotlib_37_1.png)
+![Matplotlib_37_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/b7c96a8e-e2e1-43d8-b2a1-7f54f5676dcf)
+
     
 
 
@@ -653,7 +663,8 @@ ax.hist(x
 
 
     
-![png](Matplotlib_files/Matplotlib_39_1.png)
+![Matplotlib_39_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/9d177def-837c-410d-8bf6-9f3a980d6511)
+
     
 
 
@@ -707,8 +718,8 @@ ax.boxplot(x
 
 
     
-![png](Matplotlib_files/Matplotlib_41_1.png)
-    
+![Matplotlib_41_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/fce4f6b3-504b-4f13-8bbc-0371b1658d45)
+
 
 
 
@@ -730,7 +741,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_42_0.png)
+![Matplotlib_42_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/54591889-6f18-4d06-8751-d542dedefe09)
+
     
 
 
@@ -811,8 +823,9 @@ with plt.style.context(['dark_background', 'ggplot']):
 
 
     
-![png](Matplotlib_files/Matplotlib_47_0.png)
-    
+
+![Matplotlib_47_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/44ac8525-212e-42e0-bb05-0d76f35d545c)
+  
 
 
 
@@ -863,7 +876,8 @@ with plt.style.context('ggplot'):
 
 
     
-![png](Matplotlib_files/Matplotlib_48_0.png)
+![Matplotlib_48_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/23744144-a79b-431b-934a-e6ae067e060e)
+
     
 
 
@@ -999,7 +1013,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_59_0.png)
+![Matplotlib_59_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/b226edef-3ed3-4b06-8a6d-b36e480a254c)
+
     
 
 
@@ -1023,8 +1038,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_60_0.png)
-    
+![Matplotlib_60_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/c318cb8c-1fad-49a3-8e8c-b6408f666688)
+  
 
 
 ### Subplots Using 'GridSpec'
@@ -1051,7 +1066,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_62_0.png)
+![Matplotlib_62_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/df28636a-c8d1-45e0-ac64-9c09f19d910e)
+
     
 
 
@@ -1081,7 +1097,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_63_0.png)
+
+![Matplotlib_63_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/a7d471e5-01dc-425f-8e3f-6e88f052934a)
     
 
 
@@ -1144,7 +1161,8 @@ plt.tight_layout()
 
 
     
-![png](Matplotlib_files/Matplotlib_64_0.png)
+![Matplotlib_64_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/cc19a25e-f447-4a15-bca8-2ae65128523f)
+
     
 
 
@@ -1162,7 +1180,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_65_0.png)
+![Matplotlib_65_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/937bae28-7ac3-408a-9be9-4f9a1e11d1ac)
+
     
 
 
@@ -1181,7 +1200,8 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_66_0.png)
+![Matplotlib_66_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/e438290d-b121-4fae-a6a4-3ae0f55c2992)
+
     
 
 
@@ -1222,4 +1242,5 @@ a.plot(x, y, 'g^')
 
 
     
-![png](Matplotlib_files/Matplotlib_69_1.png)
+![Matplotlib_69_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/b62d0b83-737a-4f0f-83a3-bbf3cf385e70)
+
