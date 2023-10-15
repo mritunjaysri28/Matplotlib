@@ -156,7 +156,7 @@ plt.show()
 
 
     
-![png](https://github.com/mritunjaysri28/Matplotlib/blob/master/Matplotlib_files/Matplotlib_12_0.png)
+![png](Matplotlib_files/Matplotlib_12_0.png)
     
 
 
@@ -191,7 +191,7 @@ plt.show()
 
 
     
-![png](https://github.com/mritunjaysri28/Matplotlib/blob/master/Matplotlib_14_0.png)
+![png](Matplotlib_files/Matplotlib_14_0.png)
     
 
 
