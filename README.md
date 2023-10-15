@@ -1223,10 +1223,3 @@ a.plot(x, y, 'g^')
 
     
 ![png](Matplotlib_files/Matplotlib_69_1.png)
-    
-
-
-
-```python
-
-```
