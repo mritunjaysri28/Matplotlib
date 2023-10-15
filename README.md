@@ -191,7 +191,7 @@ plt.show()
 
 
     
-![png](Matplotlib_files/Matplotlib_14_0.png)
+![png](https://github.com/mritunjaysri28/Matplotlib/blob/master/Matplotlib_14_0.png)
     
 
 
