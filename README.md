@@ -1,38 +1,51 @@
-# Matplotlib
+#Matplotlib
 
-#### Data Visualiztion
+Data visualization is about viewing or visualizing data in the form of graphical plots, charts, figures, and animations.
 
-<ul>
-    <li>Data visualization is about viewing or visualizing data in the form of graphical plots, chast, figures, and animations.</li>
-    <li>It is an effective way of communicating information to others.</li>
-    <li>Libraries: 
+## Data Visualization Libraries in Python?: 
 
-* [Altair](https://github.com/altair-viz/altair) - Declarative statistical visualization library for Python.
-* [Bokeh](https://github.com/bokeh/bokeh) - Interactive Web Plotting for Python.
-* [bqplot](https://github.com/bloomberg/bqplot) - Interactive Plotting Library for the Jupyter Notebook.
-* [Cartopy](https://github.com/SciTools/cartopy) - A cartographic python library with matplotlib support.
-* [Dash](https://plot.ly/products/dash/) - Built on top of Flask, React and Plotly aimed at analytical web applications.
-* [diagrams](https://github.com/mingrammer/diagrams) - Diagram as Code.
-* [Matplotlib](http://matplotlib.org/) - A Python 2D plotting library.
-* [plotnine](https://github.com/has2k1/plotnine) - A grammar of graphics for Python based on ggplot2.
-* [Pygal](http://www.pygal.org/en/latest/) - A Python SVG Charts Creator.
-* [PyGraphviz](https://pypi.org/project/pygraphviz/) - Python interface to [Graphviz](http://www.graphviz.org/).
-* [PyQtGraph](http://www.pyqtgraph.org/) - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
-* [Seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using Matplotlib.
-* [VisPy](https://github.com/vispy/vispy) - High-performance scientific visualization based on OpenGL.
-</ul>
+* <a href="https://github.com/altair-viz/altair" target="_blank">Altair</a> - Declarative statistical visualization library for Python.
+* <a href="https://github.com/bokeh/bokeh" target="_blank">Bokeh</a> - Interactive Web Plotting for Python.
+* <a href="https://github.com/bloomberg/bqplot" target="_blank">bqplot</a> - Interactive Plotting Library for the Jupyter Notebook.
+* <a href="https://github.com/SciTools/cartopy" target="_blank">Cartopy</a> - A cartographic Python library with matplotlib support.
+* <a href="https://plot.ly/products/dash/" target="_blank">Dash</a> - Built on top of Flask, React, and Plotly aimed at analytical web applications.
+* <a href="https://github.com/mingrammer/diagrams" target="_blank">diagrams</a> - Diagram as Code.
+* <a href="http://matplotlib.org/" target="_blank">Matplotlib</a> - A Python 2D plotting library.
+* <a href="https://github.com/has2k1/plotnine" target="_blank">plotnine</a> - A grammar of graphics for Python based on ggplot2.
+* <a href="http://www.pygal.org/en/latest/" target="_blank">Pygal</a> - A Python SVG Charts Creator.
+* <a href="https://pypi.org/project/pygraphviz/" target="_blank">PyGraphviz</a> - Python interface to <a href="http://www.graphviz.org/" target"_blank">Graphviz</a>.
+* <a href="http://www.pyqtgraph.org/" target="_blank">PyQtGraph</a> - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
+* <a href="https://github.com/mwaskom/seaborn" target="_blank">Seaborn</a> - Statistical data visualization using Matplotlib.
+* <a href="https://github.com/vispy/vispy" target="_blank">VisPy</a> - High-performance scientific visualization based on OpenGL.
 
-### Matplotlib
+
+## What is Matplotlib?
 Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.
 
-<ul>
-    <li>Orgainzed in hierarchy</li>
-    <li>top-level <b>matplotlib.pypplot</b> module is present</li>
-    <li>pyplot is used for few activity such as figure creation, </li>
-    <li>Through the created figure, one or more axes/subplot object are created</li>
-    <li>Axes object can further use for doing many plotting actions.</li>
-</ul>
+* Organized in hierarchy
+* top-level **matplotlib.pyplot** module is present
+* pyplot is used for a few activities such as figure creation, 
+* Through the created figure, one or more axes/subplot objects are created
+* Axes object can further be used for doing many plotting actions.
 
+```python
+#install matplotlib
+!pip install matplotlib
+```
+
+```
+    Requirement already satisfied: matplotlib in c:\users\mritu\anaconda3\lib\site-packages (3.8.0)
+    Requirement already satisfied: contourpy>=1.0.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.0.5)
+    Requirement already satisfied: cycler>=0.10 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (0.11.0)
+    Requirement already satisfied: fonttools>=4.22.0 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (4.25.0)
+    Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.4.4)
+    Requirement already satisfied: numpy<2,>=1.21 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.24.3)
+    Requirement already satisfied: packaging>=20.0 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (23.0)
+    Requirement already satisfied: pillow>=6.2.0 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (9.4.0)
+    Requirement already satisfied: pyparsing>=2.3.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (3.0.9)
+    Requirement already satisfied: python-dateutil>=2.7 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (2.8.2)
+    Requirement already satisfied: six>=1.5 in c:\users\mritu\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+```
 
 ```python
 #import library
@@ -42,44 +55,18 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 ```
 
-
-```python
-#install matplotlib
-!pip install matplotlib
-```
-
-    Requirement already satisfied: matplotlib in c:\users\mritu\anaconda3\lib\site-packages (3.8.0)
-    Requirement already satisfied: contourpy>=1.0.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.0.5)
-    Requirement already satisfied: cycler>=0.10 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (0.11.0)
-    Requirement already satisfied: fonttools>=4.22.0 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (4.25.0)
-    Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.4.4)
-    Requirement already satisfied: numpy<2,>=1.21 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.24.3)
-    Requirement already satisfied: packaging>=20.0 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (23.0)
-    Requirement already satisfied: pillow>=6.2.0 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (9.4.0)
-    Requirement already satisfied: pyparsing>=2.3.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (3.0.9)
-    Requirement already satisfied: python-dateutil>=2.7 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (2.8.2)
-    Requirement already satisfied: six>=1.5 in c:\users\mritu\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
-    
-
-
 ```python
 #get matplotlib version
 matplotlib.__version__
+>>> '3.8.0'
 ```
-
-
-
-
-    '3.8.0'
-
-
-
 
 ```python
 #upgrade matplotlib
 !pip install --upgrade matplotlib
 ```
 
+```
     Requirement already satisfied: matplotlib in c:\users\mritu\anaconda3\lib\site-packages (3.8.0)
     Requirement already satisfied: contourpy>=1.0.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (1.0.5)
     Requirement already satisfied: cycler>=0.10 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (0.11.0)
@@ -91,61 +78,47 @@ matplotlib.__version__
     Requirement already satisfied: pyparsing>=2.3.1 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (3.0.9)
     Requirement already satisfied: python-dateutil>=2.7 in c:\users\mritu\anaconda3\lib\site-packages (from matplotlib) (2.8.2)
     Requirement already satisfied: six>=1.5 in c:\users\mritu\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
-    
-
+``` 
 
 ```python
 #get matplotlib version after upgrade
 matplotlib.__version__
+>>> '3.8.0'
 ```
 
+## Parts of Matplotlib 
+
+* [Figure](#/figure): Whole area chosen for plotting
+* [Axes](#axes): Area where data is plotted
+* [Axis](#axis): Number-line link objects, which define graph limits (x-axis, y-axis)
+* [Artist](#artist): Every element on the figure is an artist (Major and Minor tick table)
+
+## Figure <a name="figure"></a>
 
 
-
-    '3.8.0'
-
-
-
-### Parts of Matplotlib 
-
-<ol>
-    <li>Figure: Whole area chosen for plotting</li>
-    <li>Axes: Area where data is plotted</li>
-    <li>Axis: Number-line link objects, which define graph limits (x, y axis)</li>
-    <li>Artist: Every element on the figure is an artist (Major and Minor tick table)</li>
-</ol>
-
-### Figure
-
-<ul>
-    <li>It refer to the whole area or page on which everything is drawn.</li>
-    <li>It include Axes, Axis and other Artist element</li>
-    <li>Figure is created using <b>figure</b> function of pyplot module</li>
-</ul>
+* It refers to the whole area or page on which everything is drawn.
+* It includes Axes, Axis and other Artist element
+* Figure is created using **figure** function of pyplot module
 
 
 ```python
 #create figure using plt.figure() return figure object
 fig = plt.figure()
 
-# Viewing figure to display figure need to tell explicitly pyplot to display it
-# below command will return the object to display figure it required at least one axes.
+# Viewing figure to display figure needs to tell explicitly pyplot to display it
+# The below command will return the object to display the figure it requires at least one axe.
+
 plt.show()
+>>> <Figure size 640x480 with 0 Axes>
 ```
 
+## Axes <a name="axes"></a>
 
-    <Figure size 640x480 with 0 Axes>
 
-
-### Axes
-
-<ul>
-    <li>Axes is the region of the figure, available for plotting data</li>
-    <li>Axes object is associated with only one Figure</li>
-    <li>Figure can contain one or more number of Axes element</li>
-    <li>Axes contain two Axis object in case of 2D plots and three object in case of 3D plots</li>
-</ul>
-
+* Axes are the region of the figure, available for plotting data
+* Axes object is associated with only one Figure
+* Figure can contain one or more number of Axes element
+* Axes contain two Axis object in case of 2D plots and three object in case of 3D plots
 
 ```python
 #Axes can be added by using methods add_subplot(nrows, ncols, index) return axes object
@@ -153,13 +126,8 @@ fig = plt.figure()
 ax = fig.add_subplot()
 plt.show()
 ```
-
-
-    
+   
 #![Matplotlib_12_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/1869acd3-8759-42de-9081-99b072288c3e)
-
-
-
 
 ```python
 #Adjusting Figure Size => plt.figure(figsize=(x, y))
@@ -168,36 +136,26 @@ ax = fig.add_subplot(1, 1, 1)
 plt.show()
 ```
 
-
-    
 ![Matplotlib_13_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/184e92b1-9f44-4a09-b6c1-344767fa61c6)
 
-
-
-
 ```python
-#setting title and axis label as parameter
+#setting title and axis label as a parameter
 fig = plt.figure(figsize=(10,3))
 ax = fig.add_subplot(1,1,1)
 ax.set(title="Figure"
-      , xlabel='x-asix'
+      , xlabel='x-axis'
       , ylabel='y-axis'
       , xlim=(0,5)
       , ylim=(0,10)
       , xticks=[0.1, 0.9, 2, 3, 4, 5]
-      , xticklabels=['pointone', 'pointnine', 'two', 'three', 'four', 'five'])
+      , xticklabels=['pointone, 'pointnine', 'two', 'three', 'four', 'five'])
 plt.show()
 ```
 
-
-    
 ![Matplotlib_14_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/4eb63848-4376-4bc5-825d-69c70cadbd42)
 
-
-
-
 ```python
-#setting title and axis label as method
+#setting title and axis label as a method
 fig = plt.figure(figsize=(3,3))
 ax = fig.add_subplot(111)
 ax.set_title("Figure")
@@ -217,7 +175,7 @@ plt.show()
 
 
 ```python
-#setting title and axis label eplicitly
+#setting title and axis label explicitly
 fig = plt.figure(figsize=(3,3))
 ax = fig.add_subplot(1,1,1)
 
@@ -228,9 +186,6 @@ plt.xlim(0,5)
 plt.ylim(0,10)
 plt.show()
 ```
-
-
-    
 ![Matplotlib_16_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/95c39080-c925-40ae-a5ec-d39273da4cf3)
 
     
@@ -252,9 +207,6 @@ ax.set(title="Figure"
 plt.plot(x,y)
 plt.show()
 ```
-
-
-    
 ![Matplotlib_17_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/fc551791-ee24-4043-88aa-369f1e0d1c3e)
 
     
@@ -277,30 +229,27 @@ plt.plot(x,y, label='legend')
 plt.legend()
 plt.show()
 ```
-
-
-    
 ![Matplotlib_18_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/b8a9d7d1-30ef-4595-973b-876d09d0ff52)
 
     
 
 
-### Types Of Plot
+## Types Of Plot
 
-1. Line plot
-2. Scatter plot
-3. Bar plot
-4. Pie plot
-5. Histogram
-6. Box plot
+* [Line plot](#lineplot)
+* [Scatter plot](#scatterplot)
+* [Bar plot](#barplot)
+* [Pie plot](#pieplot)
+* [Histogram](#histogram)
+* [Box plot](#boxplot)
 
-### Line Plot
+## Line Plot<a name="lineplot"></a>
 
 * Line Plot is used to visualize a trend in data.
-* Line Plot is also used to compare two variables.
+* A Line Plot is also used to compare two variables.
 * Line Plots are simple and effective in communicating.
 * plot function is used for drawing Line plots.
-* Syntax: plt.plot(x,y)
+* Syntax: **plt.plot(x,y)**
 
 
 ```python
@@ -318,12 +267,7 @@ ax.plot(x, y)
 plt.show()
 ```
 
-
-    
 ![Matplotlib_21_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/3ac0bf29-c958-4161-a5a7-0a723d9b3bc1)
-
-    
-
 
 ### Parameter for Plot 
 
@@ -354,16 +298,10 @@ ax.plot(x
 plt.legend()
 plt.show()
 ```
-
-
     
 ![Matplotlib_23_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/8f99df18-f6ea-4ddc-9ca0-d492ef223b8c)
 
-    
-
-
-### Multiple line with single plot function
-
+### Multiple lines with a single plot function
 
 ```python
 x=[1,4,6,8,2]
@@ -372,37 +310,28 @@ y=[10,10,1,5,0]
 fig = plt.figure(figsize=(8,4))
 ax = fig.add_subplot()
 ax.plot(x, y, 'g<', x,y, 'r--')
-
 ```
 
-
-
-
-    [<matplotlib.lines.Line2D at 0x24716e40890>,
-     <matplotlib.lines.Line2D at 0x24718806550>]
-
-
-
-
-    
+``` [<matplotlib.lines.Line2D at 0x24716e40890>,
+    <matplotlib.lines.Line2D at 0x24718806550>]
+```
+ 
 ![Matplotlib_25_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/06a2a78f-acb7-4a3e-b3c2-c16d360af70f)
 
+## Scatter Graph<a name="scatterplot"></a>
 
-
-### Scatter Graph
-
-* It similar to line graph
+* It similar to a line graph
 * Used to show how one variable is related to another
-* It consist of data point, if it in linear then it higly corelated
-* It only mark the data point.
+* It consists of data points, if it is linear then it is highly correlated
+* It only marks the data point.
 * Syntax: plt.scatter(x,y)
 
 ### Parameter of Scatter Graph
 
 * c: Sets color of markers.
-* s: Sets size of markers.
-* marker: Selects a marker. e.g: circle, triangle, etc
-* edgecolor: Sets the color of lines on edges of markers.
+* s: Sets the size of markers.
+* marker: Selects a marker. e.g.: circle, triangle, etc
+* edgecolor: Sets the color of lines on the edges of markers.
 
 
 ```python
@@ -424,40 +353,34 @@ ax.set_ylabel('Y-Axis')
 plt.legend()
 ```
 
-
-
-
     <matplotlib.legend.Legend at 0x24718801890>
-
-
-
-
-    
+ 
 ![Matplotlib_28_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/cbc8f389-6d9d-447f-af22-03cfb8ef2a52)
 
-    
-
-
-### Bar Chart
+## Bar Chart<a name="barplot"></a>
 
 * It mostly used to compare categories
 * bar is used for vertical bar plots
 * barh is used for horizontal bar plots
-* Syntax: bar(x, height) or bar(y,width)
+* Syntax: **bar(x, height)** or **bar(y,width)**
 
 ### Parameter of Bar Graph
 
-* color: Sets the color of bars.
-* edgecolor: Sets the color of the border line of bars.
+* Color: Sets the color of bars.
+* edgecolor: Sets the color of the borderline of bars.
 * label: Sets label to a bar, appearing in legend.
 * color: color of bar
 * align: Aligns the bars w.r.t x-coordinates
 
-##### bar(x,width)
-* width: Sets the width of bars
+```python
+# width: Sets the width of bars
+bar(x,width) 
+```
 
-#### barh(y,height)
-* height: Sets the height of bars
+```python
+# height: Sets the height of bars
+barh(y,height)
+```
 
 
 ```python
@@ -486,13 +409,8 @@ ax.bar(x
 plt.legend()
 plt.show()
 ```
-
-
-    
+ 
 ![Matplotlib_31_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/f596de7d-379f-4860-adac-64e2af254ef4)
-
-
-
 
 ```python
 #horizontal bar graph
@@ -519,24 +437,19 @@ plt.barh(x
 plt.legend()
 plt.show()
 ```
-
-
-    
+ 
 ![Matplotlib_32_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/4a5c1137-87a8-4e1f-b157-a240a1749fb3)
 
-    
+## Error Bar
 
-
-### Error Bar
-
-* It is used to plot y versus x as lines and/or markers with attached errorbars.
+It plots y versus x as lines and markers with attached error bars.
 
 ### Parameter of Error Bar
 
 * ecolor: it is the color of the errorbar lines.
 * elinewidth: it is the linewidth of the errorbar lines.
 * capsize: it is the length of the error bar caps in points.
-* barsabove: It contains boolean value True for plotting errorsbars above the plot symbols. Its default value is False.
+* barsabove: It contains a boolean value True for plotting errors bars above the plot symbols. Its default value is False.
 * Syntax: errorbar()
 
 
@@ -552,32 +465,22 @@ plt.bar(a, b)
 plt.errorbar(a, b, xerr=c, yerr=d, fmt="^", color="r")
 ```
 
-
-
-
     <ErrorbarContainer object of 3 artists>
-
-
-
-
     
 ![Matplotlib_34_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/ada6e5ed-69a2-44df-abd4-036a40a884c5)
 
-    
-
-
-### Pie Plot
+## Pie Plot<a name="pieplot"></a>
 
 * It is effective in showing the proportion of categories.
 * It is best suited for comparing fewer categories.
-* It is used to highlight proportion of one or a group of categories.
-* Syntax: pie(x), x: size of portions, passed as fraction or number
+* It is used to highlight the proportion of one or a group of categories.
+* Syntax: **pie(x)**, x: size of portions, passed as fraction or number
 
 ### Parameter of Pie
 
 * colors: Sets the colors of portions.
 * labels: Sets the labels of portions.
-* startangle: Sets the start angle at which portion drawing starts.
+* startangle: Sets the start angle at which the portion drawing starts.
 * autopct: Sets the percentage display format of an area, covering portions.
 
 
@@ -594,10 +497,7 @@ plt.pie(x
        , startangle=0
        , autopct='%1.1f%%')
 ```
-
-
-
-
+```
     ([<matplotlib.patches.Wedge at 0x2471900da10>,
       <matplotlib.patches.Wedge at 0x247189a1f10>,
       <matplotlib.patches.Wedge at 0x247189a26d0>,
@@ -613,24 +513,17 @@ plt.pie(x
       Text(-0.18541023936624987, 0.5706338958896061, '20.0%'),
       Text(-0.5868885444780788, -0.12474708958690041, '26.7%'),
       Text(0.3000001054080887, -0.5196151814132605, '33.3%')])
-
-
-
-
-    
+```
 ![Matplotlib_37_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/b7c96a8e-e2e1-43d8-b2a1-7f54f5676dcf)
 
-    
+## Histogram Chart<a name="histogram"></a>
 
-
-### Histogram Chart
-
-* It used to visualize the spread of data of a distribution
-* Syntax: hist(x), x is the data values
+* It is used to visualize the spread of data in a distribution
+* Syntax: **hist(x)**, x is the data values
 
 ### Parameter of Histogram
 
-* color: Sets the color of bars.
+* Color: Sets the color of bars.
 * bins: Sets the number of bins to be used.
 * density: Sets to True where bins display fraction and not the count.
 
@@ -652,23 +545,15 @@ ax.hist(x
        , orientation='vertical')
 ```
 
-
-
-
+```
     (array([0.5, 0. , 0.5, 0. , 0. , 0.5, 0. , 0.5, 0. , 0.5]),
      array([1. , 1.4, 1.8, 2.2, 2.6, 3. , 3.4, 3.8, 4.2, 4.6, 5. ]),
      <BarContainer object of 10 artists>)
-
-
-
-
-    
+```
+ 
 ![Matplotlib_39_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/9d177def-837c-410d-8bf6-9f3a980d6511)
 
-    
-
-
-### Box Plot
+## Box Plot <a name="boxplot"></a>
 
 It is a type of chart that depicts a group of numerical data through their quartiles. It is a simple way to visualize the shape of our data. It makes comparing characteristics of data between categories very easy.
 
@@ -702,9 +587,7 @@ ax.boxplot(x
           , vert=True)
 ```
 
-
-
-
+```
     {'whiskers': [<matplotlib.lines.Line2D at 0x24716eae810>,
       <matplotlib.lines.Line2D at 0x24716eadd10>],
      'caps': [<matplotlib.lines.Line2D at 0x24716eadd50>,
@@ -713,15 +596,9 @@ ax.boxplot(x
      'medians': [<matplotlib.lines.Line2D at 0x24716edb390>],
      'fliers': [<matplotlib.lines.Line2D at 0x247187d9d10>],
      'means': []}
-
-
-
-
-    
+```
+ 
 ![Matplotlib_41_1](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/fce4f6b3-504b-4f13-8bbc-0371b1658d45)
-
-
-
 
 ```python
 np.random.seed(100)
@@ -739,24 +616,16 @@ ax.boxplot([x, y, z]
 plt.show()
 ```
 
-
-    
 ![Matplotlib_42_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/54591889-6f18-4d06-8751-d542dedefe09)
 
-    
-
-
-### Matplotlib Styles
+## Matplotlib Styles
 
 
 ```python
 plt.style.available
 ```
 
-
-
-
-    ['Solarize_Light2',
+``` ['Solarize_Light2',
      '_classic_test_patch',
      '_mpl-gallery',
      '_mpl-gallery-nogrid',
@@ -784,26 +653,16 @@ plt.style.available
      'seaborn-v0_8-white',
      'seaborn-v0_8-whitegrid',
      'tableau-colorblind10']
-
-
-
+```
 
 ```python
 plt.style.use('ggplot')
 ```
 
-
 ```python
 plt.style.context('ggplot')
+>>> <contextlib._GeneratorContextManager at 0x24718952750>
 ```
-
-
-
-
-    <contextlib._GeneratorContextManager at 0x24718952750>
-
-
-
 
 ```python
 x = [1, 5, 8, 12, 15, 19, 22, 26, 29]
@@ -821,13 +680,8 @@ with plt.style.context(['dark_background', 'ggplot']):
     plt.show()
 ```
 
-
-    
-
 ![Matplotlib_47_0](https://github.com/mritunjaysri28/Matplotlib/assets/25318797/44ac8525-212e-42e0-bb05-0d76f35d545c)
   
-
-
 
 ```python
 sepal_len=[6.01,6.94,7.59]
@@ -881,9 +735,9 @@ with plt.style.context('ggplot'):
     
 
 
-### Custom Style
+## Custom Style
 
-* A style sheet is a text file having extension .mplstyle.
+* A style sheet is a text file having the extension .mplstyle.
 * All custom style sheets are placed in a folder, stylelib, present in the config directory of matplotlib.
 * Create a file mystyle.mplstyle with the below-shown contents and save it in the folder <matplotlib_configdir/stylelib/.
 * Reload the matplotlib library with the subsequent expression.
@@ -893,10 +747,8 @@ with plt.style.context('ggplot'):
 ```python
 #Reload the matplotlib library with the subsequent expression.
 print(matplotlib.get_configdir())
-```
-
-    C:\Users\mritu\.matplotlib
-    
+>>> C:\Users\mritu\.matplotlib
+```    
 
 ### Create a file mystyle.mplstyle with the below-shown contents and save it in the folder <matplotlib_configdir/stylelib/.
 
@@ -908,41 +760,37 @@ print(matplotlib.get_configdir())
 * ytick.labelsize : 16
 
 Reload the matplotlib library with the subsequent expression.
-```matplotlib.style.reload_library()```
+```
+matplotlib.style.reload_library()
+```
 
 
 ```python
 print(plt.style.available)
 ```
 
-    ['Solarize_Light2', '_classic_test_patch', '_mpl-gallery', '_mpl-gallery-nogrid', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn-v0_8', 'seaborn-v0_8-bright', 'seaborn-v0_8-colorblind', 'seaborn-v0_8-dark', 'seaborn-v0_8-dark-palette', 'seaborn-v0_8-darkgrid', 'seaborn-v0_8-deep', 'seaborn-v0_8-muted', 'seaborn-v0_8-notebook', 'seaborn-v0_8-paper', 'seaborn-v0_8-pastel', 'seaborn-v0_8-poster', 'seaborn-v0_8-talk', 'seaborn-v0_8-ticks', 'seaborn-v0_8-white', 'seaborn-v0_8-whitegrid', 'tableau-colorblind10']
-    
+```
+ ['Solarize_Light2', '_classic_test_patch', '_mpl-gallery', '_mpl-gallery-nogrid', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn-v0_8', 'seaborn-v0_8-bright', 'seaborn-v0_8-colorblind', 'seaborn-v0_8-dark', 'seaborn-v0_8-dark-palette', 'seaborn-v0_8-darkgrid', 'seaborn-v0_8-deep', 'seaborn-v0_8-muted', 'seaborn-v0_8-notebook', 'seaborn-v0_8-paper', 'seaborn-v0_8-pastel', 'seaborn-v0_8-poster', 'seaborn-v0_8-talk', 'seaborn-v0_8-ticks', 'seaborn-v0_8-white', 'seaborn-v0_8-whitegrid', 'tableau-colorblind10']
+```    
 
-### matplotlibrc file ###
+## matplotlibrc file
 
 * matplotlib uses all the settings specified in matplotlibrc file.
 * These settings are known as rc settings or rc parameters.
 * For customization, rc settings can be altered in the file or interactively.
-* The location of active matplotlibrc file used by matplotlib can be found with below expression.
+* The location of the active matplotlibrc file used by matplotlib can be found below.
 
 
 ```python
 import matplotlib
 matplotlib.matplotlib_fname()
+>>> C:\\Users\\mritu\\anaconda3\\Lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc'
 ```
 
-
-
-
-    'C:\\Users\\mritu\\anaconda3\\Lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc'
-
-
-
-### Matplotlib rcParams
+## Matplotlib rcParams
 
 * All rc settings, present in matplotlibrc file are stored in a dictionary named matplotlib.rcParams.
-* Any settings can be changed by editing values of this dictionary.
-
+* Any settings can be changed by editing the values of this dictionary.
 
 ```python
 import matplotlib as mpl
@@ -954,9 +802,6 @@ mpl.rcParams['lines.color'] = 'r'
 ```python
 plt.style.available
 ```
-
-
-
 
     ['Solarize_Light2',
      '_classic_test_patch',
@@ -989,7 +834,7 @@ plt.style.available
 
 
 
-### Subplots
+## Subplots
 
 It provides a way to plot multiple plots on a single figure. Given the number of rows and columns, it returns a tuple (fig, ax), giving a single figure fig with an array of axes ax.
 
@@ -1042,11 +887,11 @@ plt.show()
   
 
 
-### Subplots Using 'GridSpec'
+## Subplots Using 'GridSpec'
 
 * GridSpec class of matplotlib.gridspec can also be used to create Subplots.
-* Initially, a grid with given number of rows and columns is set up.
-* Later while creating a subplot, the number of rows and columns of grid, spanned by the subplot are provided as inputs to subplot function.
+* Initially, a grid with a given number of rows and columns is set up.
+* Later while creating a subplot, the number of rows and columns of the grid, spanned by the subplot are provided as inputs to the subplot function.
 
 
 ```python
@@ -1205,24 +1050,24 @@ plt.show()
     
 
 
-### Common Pitfalls in Data Visualization
+## Common Pitfalls in Data Visualization
 
-Common pitfalls to be avoided for a better Data Visualization are:
+Common pitfalls to be avoided for better Data Visualization are:
 
 * Creating unlabelled plots.
-* Using 3-Dimensional charts. Don't prefer 3-D plots, unless they add any value over 2-D charts.
-* Portions of a pie plot do not sum up to meaningful number.
+* Using 3-dimensional charts. Don't prefer 3-D plots, unless they add any value over 2-D charts.
+* Portions of a pie plot do not sum up to a meaningful number.
 * Showing too many portions in a single pie chart.
 * Bar charts not starting at zero.
 * Failing to normalize the data.
-* Adding extra labels, and fancy images.
+* Adding extra labels and fancy images.
 
-### Best Practices of Data Visualization
+## Best Practices of Data Visualization
 
-Few of the best practices of Data Visualization are:
+A few of the best practices of Data Visualization are:
 
 * Display the data points on the plot, whenever required.
-* Whenever correlation is plotted, clarify that you have not established any cause of link between the variables.
+* Whenever correlation is plotted, clarify that you have not established any cause of the link between the variables.
 * Prefer labeling data objects directly inside the plot, rather than using legends.
 * Create a visualization, which stands by itself. Avoid adding extra text to tell more about visualization.
 
