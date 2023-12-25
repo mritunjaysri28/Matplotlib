@@ -1,4 +1,4 @@
-#Matplotlib
+# Matplotlib
 
 Data visualization is about viewing or visualizing data in the form of graphical plots, charts, figures, and animations.
 
