@@ -24,9 +24,9 @@ Matplotlib is a plotting library for the Python programming language and its num
 
 * Organized in hierarchy
 * top-level **matplotlib.pyplot** module is present
-* pyplot is used for a few activities such as figure creation, 
+* pyplot is used for a few activities such as figure creation,
 * Through the created figure, one or more axes/subplot objects are created
-* Axes object can further be used for doing many plotting actions.
+* Axes objects can further be used for doing many plotting actions.
 
 ```python
 #install matplotlib
@@ -98,7 +98,7 @@ matplotlib.__version__
 
 * It refers to the whole area or page on which everything is drawn.
 * It includes Axes, Axis and other Artist element
-* Figure is created using **figure** function of pyplot module
+* The figure is created using the figure function of the pyplot module
 
 
 ```python
@@ -117,8 +117,8 @@ plt.show()
 
 * Axes are the region of the figure, available for plotting data
 * Axes object is associated with only one Figure
-* Figure can contain one or more number of Axes element
-* Axes contain two Axis object in case of 2D plots and three object in case of 3D plots
+* A Figure can contain one or more number of Axes element
+* Axes contain two Axis objects in case of 2D plots and three objects in case of 3D plots
 
 ```python
 #Axes can be added by using methods add_subplot(nrows, ncols, index) return axes object
@@ -330,7 +330,7 @@ ax.plot(x, y, 'g<', x,y, 'r--')
 
 * c: Sets color of markers.
 * s: Sets the size of markers.
-* marker: Selects a marker. e.g.: circle, triangle, etc
+* marker: Select a marker. e.g.: circle, triangle, etc
 * edgecolor: Sets the color of lines on the edges of markers.
 
 
@@ -359,9 +359,9 @@ plt.legend()
 
 ## Bar Chart<a name="barplot"></a>
 
-* It mostly used to compare categories
-* bar is used for vertical bar plots
-* barh is used for horizontal bar plots
+* It is mostly used to compare categories
+* **bar** is used for vertical bar plots
+* **barh** is used for horizontal bar plots
 * Syntax: **bar(x, height)** or **bar(y,width)**
 
 ### Parameter of Bar Graph
@@ -369,7 +369,7 @@ plt.legend()
 * Color: Sets the color of bars.
 * edgecolor: Sets the color of the borderline of bars.
 * label: Sets label to a bar, appearing in legend.
-* color: color of bar
+* color: the color of the bar
 * align: Aligns the bars w.r.t x-coordinates
 
 ```python
@@ -446,11 +446,11 @@ It plots y versus x as lines and markers with attached error bars.
 
 ### Parameter of Error Bar
 
-* ecolor: it is the color of the errorbar lines.
+* ecolor: it is the color of the error bar lines.
 * elinewidth: it is the linewidth of the errorbar lines.
 * capsize: it is the length of the error bar caps in points.
-* barsabove: It contains a boolean value True for plotting errors bars above the plot symbols. Its default value is False.
-* Syntax: errorbar()
+* barsabove: It contains a boolean value True for plotting error bars above the plot symbols. Its default value is False.
+* Syntax: **errorbar()**
 
 
 ```python
@@ -958,48 +958,24 @@ fig=plt.figure(figsize=(9,7))
 fig.suptitle('Main title for all subplot')
 
 axes1=plt.subplot(2,2,1,title='Scatter plot with Diamond Markers')
-axes1.scatter(x
-              , y
-              , s=80
-              , c=z
-              , marker='d'
-             )
-axes1.set(xticks=(0.0,0.5,1.0,1.5)
-          , yticks=(-0.2,0.2,0.6,1.0)
-         )
+axes1.scatter(x, y, s=80, c=z, marker='d')
+
+axes1.set(xticks=(0.0,0.5,1.0,1.5), yticks=(-0.2,0.2,0.6,1.0))
 
 axes2=plt.subplot(2,2,2,title='Scatter plot with Circle Markers')
-axes2.scatter(x
-              , y
-              , s=80
-              , c=z
-              , marker='o'
-             )
-axes2.set(xticks=(0.0,0.5,1.0,1.5)
-          , yticks=(-0.2,0.2,0.6,1.0)
-         )
+axes2.scatter(x, y, s=80, c=z, marker='o')
+
+axes2.set(xticks=(0.0,0.5,1.0,1.5), yticks=(-0.2,0.2,0.6,1.0))
 
 axes3=plt.subplot(2,2,3,title='Scatter plot with Plus Markers')
-axes3.scatter(x
-              , y
-              , s=80
-              , c=z
-              , marker='*'
-             )
-axes3.set(xticks=(0.0,0.5,1.0,1.5)
-          , yticks=(-0.2,0.2,0.6,1.0)
-         )
+axes3.scatter(x, y, s=80, c=z, marker='*')
+
+axes3.set(xticks=(0.0,0.5,1.0,1.5), yticks=(-0.2,0.2,0.6,1.0))
 
 axes4=plt.subplot(2,2,4,title='Scatter plot with Upper Triangle')
-axes4.scatter(x
-              , y
-              , s=80
-              , c=z
-              , marker='^'
-             )
-axes4.set(xticks=(0.0,0.5,1.0,1.5)
-          , yticks=(-0.2,0.2,0.6,1.0)
-         )
+axes4.scatter(x, y, s=80, c=z, marker='^')
+
+axes4.set(xticks=(0.0,0.5,1.0,1.5), yticks=(-0.2,0.2,0.6,1.0))
 
 plt.tight_layout()
 ```
